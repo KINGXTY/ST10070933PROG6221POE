@@ -1,0 +1,13 @@
+﻿<Window x:Class="ST10070933PROG6221POE.AddStepDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Step" Height="237" Width="495">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="Step Description:" />
+            <TextBox Name="StepDescriptionTextBox" Margin="0,5" />
+
+            <Button Content="Add" Click="AddStepButton_Click" Margin="0,10" />
+        </StackPanel>
+    </Grid>
+</Window>

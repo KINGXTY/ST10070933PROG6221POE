@@ -1,0 +1,12 @@
+﻿<Window x:Class="ST10070933PROG6221POE.ScaleRecipeDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Scale Recipe" Height="200" Width="300">
+    <Grid Margin="0,0,0,-16">
+        <StackPanel Margin="10">
+            <TextBlock Text="Enter new scale factor (0.5, 2, or 3):" Margin="0,0,0,10" />
+            <TextBox Name="ScaleFactorTextBox" Margin="0,0,0,10" />
+            <Button Content="Scale" Click="ScaleButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
